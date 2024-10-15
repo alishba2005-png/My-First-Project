@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.login_container {
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    background-color: #f43b3b;
+    color: #fccece;
+}
+
+.login_container .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.login_container .tabs .tab_active {
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 150px;
+    border-right: 1px solid #fff;
+    background-color: #f43b3b;
+    text-decoration: none;
+}
+
+.login_container .tabs .tab_inactive {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    background-color: #f43b3b;
+    text-decoration: none;
+}
+
+.login_container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_container form h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+    width: 100%;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.login_container form p {
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.login_container form .input_box input {
+    width: 100%;
+    height: 45px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #F43B3B;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.login_container form .input_box input::placeholder {
+    color: #f43b3b;
+}
+
+.login_container form .button {
+    width: 100%;
+    height: 45px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F43B3B;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.login_container form a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
